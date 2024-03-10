@@ -21,3 +21,5 @@ string = "John"
 age = 19
 name = "John"
 can_swim = false
+
+puts can_swim
