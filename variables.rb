@@ -22,4 +22,11 @@ age = 19
 name = "John"
 can_swim = false
 
-puts can_swim
+ivans_location = "California"
+
+desired_location = ivans_location
+
+ivans_location.upcase!
+
+
+puts "Ivan's location is in #{ivans_location}"
