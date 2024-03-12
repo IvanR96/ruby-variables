@@ -20,13 +20,11 @@ string = "John"
 # good variable example
 age = 19
 name = "John"
-can_swim = false
 
-ivans_location = "California"
+x = 14
 
-desired_location = ivans_location
+if x > 12
+    puts "My variable is bigger"
+end
 
-ivans_location.upcase!
 
-
-puts "Ivan's location is in #{ivans_location}"
